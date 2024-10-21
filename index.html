@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify -Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="/assets/icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="sidebar">
+        <div class="nav">
+          <div class="nav-option">
+            <i class="fa-solid fa-house"></i>
+            <a href="#">Home</a>
+          </div>
+          <div class="nav-option">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="#">Search</a>
+          </div>
+        </div>
+        <div class="library nav-option">
+          <div class="options">
+            <div class="lib-option">
+              <img src="/assets/lib.png" alt="" />
+              <a href="#">Your Library</a>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="library-box">
+            <div class="box">
+              <p class="box-p1">Create your first playlist</p>
+              <p class="box-p2">It's easy, we'll help you</p>
+              <button class="badge">Create playlist</button>
+            </div>
+            <div class="box">
+              <p class="box-p1">Let's find some podcasts to follow</p>
+              <p class="box-p2">We'll keep you updated on new episodes</p>
+              <button class="badge">Browse podcasts</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main_content">
+        <div class="sticky-nav">
+          <div class="sticky-nav-icons">
+            <i class="fa-solid fa-less-than"></i>
+            <i class="fa-solid fa-greater-than"></i>
+          </div>
+          <div class="sticky-nav-options">
+            <button class="badge nav-item hide">Explore Premium</button>
+            <button class="badge nav-item dark-badge">
+              <i class="fa-regular fa-circle-down" style="margin-right: 5px"></i
+              >Install App
+            </button>
+            <i class="fa-regular fa-user nav-item"></i>
+          </div>
+        </div>
+        <h2>Recently Played</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img src="/assets/1.jpg" class="card-image" alt="" />
+            <p class="card-title">Top 50 - Global</p>
+            <p class="card-information">
+              Your daily updates of the most played tracks...
+            </p>
+          </div>
+        </div> 
+        <h2>Popular albums</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img src="/assets/2.jpg" class="card-image" alt="" />
+            <p class="card-title">love hotel</p>
+            <p class="card-information">
+              leftovermax
+            </p>
+          </div><div class="card">
+            <img src="/assets/3.jpg" class="card-image" alt="" />
+            <p class="card-title">Aashiqui 2</p>
+            <p class="card-information">
+              Mithoon, Ankit Tiwari, Jeet Gannguli
+            </p>
+          </div><div class="card">
+            <img src="/assets/4.jpg" class="card-image" alt="" />
+            <p class="card-title">Ek tha Raja</p>
+            <p class="card-information">
+              Badshah
+            </p>
+          </div><div class="card">
+            <img src="/assets/5.jpg" class="card-image" alt="" />
+            <p class="card-title">Animal</p>
+            <p class="card-information">
+              Manan Bhardwaj, Vishal Mishra, Jaani
+            </p>
+          </div><div class="card">
+            <img src="/assets/7.jpg" class="card-image" alt="" />
+            <p class="card-title">Sajni(From "Laapataa Ladies")</p>
+            <p class="card-information">
+              Ram Sampath, Arijit Singh, Prashant
+            </p>
+          </div>
+        </div>
+        <h2>Featured Charts</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img src="/assets/9.jpg" class="card-image" alt="" />
+            <p class="card-title">Top Songs - Global</p>
+            <p class="card-information">
+              Your weekly update of the most playe...
+            </p>
+          </div> <div class="card">
+            <img src="/assets/10.jpg" class="card-image" alt="" />
+            <p class="card-title">Top Songs - USA</p>
+            <p class="card-information">
+              Your weekly updates of the most playe...
+            </p>
+          </div> <div class="card">
+            <img src="/assets/11.jpg" class="card-image" alt="" />
+            <p class="card-title">Top 50 - USA</p>
+            <p class="card-information">
+              Your daily updates of the most played...
+            </p>
+          </div>
+        </div> 
+        <div class="footer">
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="music_player">
+        <div class="album">
+          <div >
+            <img class="cover-image" src="/assets/Daylight downloaded from SpotiSongDownloader.com_.jpg" alt="">
+          </div>
+          <div class="title-song">
+          <a href="#" >Daylight</a>
+          <p class="singer">David Kushner</p>
+        </div>
+          <div class="cover-icon">
+            <img src="/assets/heart-regular (1).svg" alt="">
+            <img src="" alt="">
+          </div>
+        </div>
+
+
+        <div class="player">
+          <div class="player-controls">
+            <i class="fa-solid fa-shuffle"></i>
+            <i class="fa-solid fa-backward-step"></i>
+            <img src="/assets/circle-play-regular.svg" alt="" style="opacity: 1;height: 2rem;" class="img">
+            <i class="fa-solid fa-forward-step"></i>
+            <i class="fa-solid fa-repeat"></i>
+          </div>
+          <div class="playback-bar">
+            <span class="current-time">00:00</span>
+            <input type="range" min="0" max="100" class="progress-bar" step="1">
+            <span class="total-time">3:33</span>
+
+          </div>
+        </div>
+        <div class="controls">
+          <div class="control-icons">
+          <img src="/assets/play1.svg" alt="">
+          <img src="/assets/play2.svg" alt="">
+          <img src="/assets/play3.svg" alt="">
+          <img src="/assets/play4.svg" alt="">
+          <img src="/assets/play5.svg" alt="">
+        </div>
+        <input type="range" min="0" max="100" class="progress" step="1">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
